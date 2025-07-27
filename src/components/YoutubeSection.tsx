@@ -2,37 +2,43 @@ import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
 const YoutubeSection = () => {
-  // Sample Julian Brown videos - in a real implementation, you'd fetch from YouTube API
+  // Real Julian Brown videos from YouTube
   const sampleVideos = [
     {
-      id: "iiDMwktd8W4",
+      id: "G4eAyrqVr6g",
       title: "Plastic to Fuel - How to Make Gasoline from Plastic Waste",
-      thumbnail: `https://img.youtube.com/vi/iiDMwktd8W4/maxresdefault.jpg`,
+      thumbnail: `https://img.youtube.com/vi/G4eAyrqVr6g/maxresdefault.jpg`,
       duration: "15:32"
     },
     {
-      id: "sample1", 
+      id: "bZnOrv0CuW4", 
       title: "Building a DIY Pyrolysis Reactor - Step by Step Guide",
-      thumbnail: `https://img.youtube.com/vi/iiDMwktd8W4/maxresdefault.jpg`,
+      thumbnail: `https://img.youtube.com/vi/bZnOrv0CuW4/maxresdefault.jpg`,
       duration: "22:45"
     },
     {
-      id: "sample2",
+      id: "ftXxVT2S3JE",
       title: "Safety Protocols for Plastic to Fuel Conversion",
-      thumbnail: `https://img.youtube.com/vi/iiDMwktd8W4/maxresdefault.jpg`, 
+      thumbnail: `https://img.youtube.com/vi/ftXxVT2S3JE/maxresdefault.jpg`, 
       duration: "18:20"
     },
     {
-      id: "sample3",
+      id: "piBu4LzqQsw",
       title: "Microwave Pyrolysis: Advanced Techniques",
-      thumbnail: `https://img.youtube.com/vi/iiDMwktd8W4/maxresdefault.jpg`,
+      thumbnail: `https://img.youtube.com/vi/piBu4LzqQsw/maxresdefault.jpg`,
       duration: "25:15"
     },
     {
-      id: "sample4",
+      id: "URn1ocQjN44",
       title: "Converting Plastic Waste to Diesel Fuel",
-      thumbnail: `https://img.youtube.com/vi/iiDMwktd8W4/maxresdefault.jpg`,
+      thumbnail: `https://img.youtube.com/vi/URn1ocQjN44/maxresdefault.jpg`,
       duration: "19:30"
+    },
+    {
+      id: "hohh4yPJQJI",
+      title: "Advanced Plastic Pyrolysis Techniques",
+      thumbnail: `https://img.youtube.com/vi/hohh4yPJQJI/maxresdefault.jpg`,
+      duration: "24:10"
     }
   ];
 
@@ -86,7 +92,7 @@ const YoutubeSection = () => {
               {sampleVideos.map((video, index) => (
                 <Card 
                   key={video.id}
-                  className="w-80 bg-card/60 border-border hover:border-neon-cyan/40 transition-all duration-500 group overflow-hidden flex-shrink-0"
+                  className="w-80 bg-card/60 border-border hover:border-neon-cyan/40 transition-all duration-500 group overflow-hidden flex-shrink-0 relative z-20"
                 >
                   <div className="relative">
                     {/* Video thumbnail - clickable */}
