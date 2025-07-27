@@ -95,6 +95,10 @@ const YoutubeSection = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                       className="block relative overflow-hidden rounded-t-lg cursor-pointer"
+                      onClick={(e) => {
+                        console.log('Thumbnail clicked for video:', video.id);
+                        console.log('Link href:', `https://www.youtube.com/watch?v=${video.id}`);
+                      }}
                     >
                       <img 
                         src={video.thumbnail}
@@ -103,7 +107,7 @@ const YoutubeSection = () => {
                       />
                       
                       {/* Play button overlay */}
-                      <div className="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                      <div className="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
                         <div className="w-16 h-16 bg-neon-red rounded-full flex items-center justify-center shadow-[0_0_20px_hsl(var(--neon-red)/0.6)] animate-glow-pulse">
                           <svg className="w-8 h-8 text-background ml-1" fill="currentColor" viewBox="0 0 24 24">
                             <path d="M8 5v14l11-7z"/>
@@ -112,7 +116,7 @@ const YoutubeSection = () => {
                       </div>
 
                       {/* Duration badge */}
-                      <div className="absolute bottom-2 right-2 bg-black/80 text-white px-2 py-1 rounded text-sm font-mono">
+                      <div className="absolute bottom-2 right-2 bg-black/80 text-white px-2 py-1 rounded text-sm font-mono pointer-events-none">
                         {video.duration}
                       </div>
                     </a>
