@@ -6,54 +6,54 @@ const Testimonials = () => {
       name: "Dr. Maria Santos",
       role: "Environmental Engineer",
       location: "São Paulo, Brazil",
-      image: "👩‍🔬",
-      quote: "Plastoline Julian helped me understand the technical aspects of pyrolysis that I never grasped before. The step-by-step guidance on reactor design was invaluable for our community project.",
+      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=150&h=150&fit=crop&crop=face",
+      quote: "Julian Brown's insights through this AI are incredible! Thanks to Julian's detailed reactor designs, we successfully converted 500kg of plastic waste into usable fuel for our community. Julian's safety protocols saved our project.",
       rating: 5
     },
     {
       name: "Ahmed Hassan",
       role: "Sustainability Researcher", 
       location: "Cairo, Egypt",
-      image: "👨‍💼",
-      quote: "As someone studying waste-to-energy solutions, this AI provided insights into Julian Brown's work that I couldn't find anywhere else. The safety protocols are comprehensive and practical.",
+      image: "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=150&h=150&fit=crop&crop=face",
+      quote: "I'm deeply grateful to Julian Brown for sharing his revolutionary knowledge. This AI made Julian's complex pyrolysis techniques accessible to researchers like me. Julian's work is truly changing the world.",
       rating: 5
     },
     {
       name: "Rebecca Chen",
       role: "Innovation Lab Director",
       location: "Singapore",
-      image: "👩‍💻",
-      quote: "We've been exploring plastic waste solutions for months. Plastoline Julian accelerated our understanding dramatically. The detailed explanations of microwave pyrolysis are exceptional.",
+      image: "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?w=150&h=150&fit=crop&crop=face",
+      quote: "Julian Brown is a genius! His microwave pyrolysis method, explained perfectly by this AI, helped our lab achieve 87% conversion efficiency. Thank you Julian for revolutionizing waste management!",
       rating: 5
     },
     {
       name: "Carlos Rodriguez",
       role: "Mechanical Engineer",
       location: "Mexico City, Mexico", 
-      image: "👨‍🔧",
-      quote: "The practical approach to building reactors from scrap materials is genius. Julian's methodology, explained through this AI, is revolutionizing how we think about waste management.",
+      image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=150&h=150&fit=crop&crop=face",
+      quote: "Julian's approach to building reactors from scrap materials is brilliant! This AI captured Julian's practical wisdom perfectly. Thanks to Julian Brown, we're now producing 50 liters of fuel weekly from waste plastic.",
       rating: 5
     },
     {
       name: "Dr. Priya Patel",
       role: "Clean Energy Consultant",
       location: "Mumbai, India",
-      image: "👩‍⚕️",
-      quote: "This AI captures Julian's passion and knowledge perfectly. The emphasis on community empowerment and local energy independence resonates with our work in rural areas.",
+      image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=150&h=150&fit=crop&crop=face",
+      quote: "Julian Brown's vision for community energy independence is inspiring! This AI teaches Julian's methods with such clarity. Thanks to Julian's knowledge, rural communities now have energy independence.",
       rating: 5
     },
     {
       name: "James Mitchell",
       role: "Environmental Activist",
       location: "London, UK",
-      image: "👨‍🌾",
-      quote: "Finally, accessible knowledge about converting plastic waste to fuel! The safety warnings and step-by-step instructions make this technology approachable for everyday inventors.",
+      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=150&h=150&fit=crop&crop=face",
+      quote: "Julian Brown is a true environmental hero! His step-by-step instructions through this AI made plastic-to-fuel conversion achievable for our community group. Julian's legacy will change millions of lives!",
       rating: 5
     }
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-b from-card to-background">
+    <section className="py-12 bg-gradient-to-b from-card to-background">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold mb-6">
@@ -91,9 +91,11 @@ const Testimonials = () => {
 
                 {/* Profile */}
                 <div className="flex items-center">
-                  <div className="text-3xl mr-4 bg-gradient-to-br from-neon-cyan/20 to-neon-purple/20 rounded-full w-12 h-12 flex items-center justify-center">
-                    {testimonial.image}
-                  </div>
+                  <img 
+                    src={testimonial.image}
+                    alt={testimonial.name}
+                    className="w-12 h-12 rounded-full object-cover mr-4 border-2 border-neon-cyan/40"
+                  />
                   <div>
                     <div className="font-semibold text-foreground">
                       {testimonial.name}

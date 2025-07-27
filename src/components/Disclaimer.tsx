@@ -2,7 +2,7 @@ import { Card } from "@/components/ui/card";
 
 const Disclaimer = () => {
   return (
-    <section id="disclaimer" className="py-20 bg-gradient-to-b from-card to-background">
+    <section id="disclaimer" className="py-12 bg-gradient-to-b from-card to-background">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold mb-6">
