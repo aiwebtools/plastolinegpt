@@ -89,8 +89,13 @@ const YoutubeSection = () => {
                   className="w-80 bg-card/60 border-border hover:border-neon-cyan/40 transition-all duration-500 group overflow-hidden flex-shrink-0"
                 >
                   <div className="relative">
-                    {/* Video thumbnail */}
-                    <div className="relative overflow-hidden rounded-t-lg">
+                    {/* Video thumbnail - clickable */}
+                    <a 
+                      href={`https://www.youtube.com/watch?v=${video.id}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block relative overflow-hidden rounded-t-lg cursor-pointer"
+                    >
                       <img 
                         src={video.thumbnail}
                         alt={video.title}
@@ -110,7 +115,7 @@ const YoutubeSection = () => {
                       <div className="absolute bottom-2 right-2 bg-black/80 text-white px-2 py-1 rounded text-sm font-mono">
                         {video.duration}
                       </div>
-                    </div>
+                    </a>
 
                     {/* Video info */}
                     <div className="p-6">
