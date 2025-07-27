@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 const Footer = () => {
   return (
-    <footer className="bg-card border-t border-border py-12">
+    <footer className="bg-card border-t border-border py-6">
       <div className="container mx-auto px-6">
         {/* Main Footer Content */}
         <div className="grid lg:grid-cols-4 gap-8 mb-8">
@@ -127,16 +127,16 @@ const Footer = () => {
         </div>
 
         {/* Action Buttons Row */}
-        <div className="border-t border-border pt-8 mb-8">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
+        <div className="border-t border-border pt-4 mb-4">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-2">
             <a 
               href="https://chatgpt.com/g/g-68853f78b2988191a919e23f74d724b1-plastic-to-fuel-plastoline-julian-brown"
               target="_blank"
               rel="noopener noreferrer"
               className="lg:col-span-2"
             >
-              <Button variant="cyber" size="lg" className="w-full">
-                USE THIS AI TOOL
+              <Button variant="outline" size="sm" className="w-full text-xs">
+                USE AI TOOL
               </Button>
             </a>
             <a 
@@ -144,12 +144,12 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Button variant="youtube" size="lg" className="w-full">
+              <Button variant="outline" size="sm" className="w-full text-xs">
                 FOLLOW JULIAN
               </Button>
             </a>
             <a href="#faq">
-              <Button variant="ghost" size="lg" className="w-full text-foreground hover:text-neon-cyan">
+              <Button variant="ghost" size="sm" className="w-full text-xs">
                 FAQ
               </Button>
             </a>
@@ -158,22 +158,22 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Button variant="hologram" size="lg" className="w-full">
-                More AI Tools
+              <Button variant="ghost" size="sm" className="w-full text-xs">
+                More Tools
               </Button>
             </a>
           </div>
         </div>
 
         {/* Featured CTA */}
-        <div className="text-center mb-8">
+        <div className="text-center mb-4">
           <a 
             href="https://chatgpt.com/g/g-68853f78b2988191a919e23f74d724b1-plastic-to-fuel-plastoline-julian-brown"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Button variant="glow" size="xxl" className="animate-pulse-glow">
-              USE THIS AI TOOL INSPIRED TO PRESERVE THE KNOWLEDGE OF JULIAN BROWN FOREVER
+            <Button variant="default" size="lg">
+              USE THIS AI TOOL TO PRESERVE JULIAN BROWN'S KNOWLEDGE
             </Button>
           </a>
         </div>
