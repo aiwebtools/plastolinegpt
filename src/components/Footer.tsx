@@ -2,10 +2,10 @@ import { Button } from "@/components/ui/button";
 
 const Footer = () => {
   return (
-    <footer className="bg-card border-t border-border py-8">
+    <footer className="bg-card border-t border-border py-12">
       <div className="container mx-auto px-6">
         {/* Main Footer Content */}
-        <div className="grid lg:grid-cols-4 gap-12 mb-12">
+        <div className="grid lg:grid-cols-4 gap-8 mb-8">
           {/* Brand Section */}
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-3 mb-6">
@@ -13,7 +13,8 @@ const Footer = () => {
                 <span className="text-2xl font-bold text-background">♻</span>
               </div>
               <div className="flex flex-col">
-                <h3 className="text-xl font-bold text-neon-cyan">Plastoline Julian</h3>
+                <h3 className="text-xl font-bold text-neon-cyan">Plastoline Julian AI</h3>
+                <p className="text-sm text-neon-pink">Inspired by Julian Brown</p>
                 <a 
                   href="https://www.aiwebtools.ai" 
                   target="_blank" 
@@ -52,7 +53,7 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Quick Links */}
+          {/* Quick Access */}
           <div>
             <h4 className="text-lg font-semibold text-foreground mb-6">Quick Access</h4>
             <div className="space-y-4">
@@ -65,12 +66,12 @@ const Footer = () => {
                 Use This AI Tool
               </a>
               <a 
-                href="https://chatgpt.com/g/g-68853f78b2988191a919e23f74d724b1-plastic-to-fuel-plastoline-julian-brown"
+                href="https://www.youtube.com/@naturejab"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block text-muted-foreground hover:text-neon-cyan transition-colors"
               >
-                Access Julian AI
+                Follow Julian on YouTube
               </a>
               <a 
                 href="#faq"
@@ -95,9 +96,9 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Legal Links */}
+          {/* Legal & Resources */}
           <div>
-            <h4 className="text-lg font-semibold text-foreground mb-6">Legal</h4>
+            <h4 className="text-lg font-semibold text-foreground mb-6">Legal & Resources</h4>
             <div className="space-y-4">
               <a 
                 href="https://openai.com/policies/privacy-policy/"
@@ -125,38 +126,60 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Action Buttons */}
-        <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+        {/* Action Buttons Row */}
+        <div className="border-t border-border pt-8 mb-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
+            <a 
+              href="https://chatgpt.com/g/g-68853f78b2988191a919e23f74d724b1-plastic-to-fuel-plastoline-julian-brown"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="lg:col-span-2"
+            >
+              <Button variant="cyber" size="lg" className="w-full">
+                USE THIS AI TOOL
+              </Button>
+            </a>
+            <a 
+              href="https://www.youtube.com/@naturejab"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="youtube" size="lg" className="w-full">
+                FOLLOW JULIAN
+              </Button>
+            </a>
+            <a href="#faq">
+              <Button variant="ghost" size="lg" className="w-full text-foreground hover:text-neon-cyan">
+                FAQ
+              </Button>
+            </a>
+            <a 
+              href="https://www.aiwebtools.ai"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="hologram" size="lg" className="w-full">
+                More AI Tools
+              </Button>
+            </a>
+          </div>
+        </div>
+
+        {/* Featured CTA */}
+        <div className="text-center mb-8">
           <a 
             href="https://chatgpt.com/g/g-68853f78b2988191a919e23f74d724b1-plastic-to-fuel-plastoline-julian-brown"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Button variant="cyber" size="lg" className="w-full sm:w-auto">
+            <Button variant="glow" size="xxl" className="animate-pulse-glow">
               USE THIS AI TOOL INSPIRED TO PRESERVE THE KNOWLEDGE OF JULIAN BROWN FOREVER
             </Button>
           </a>
         </div>
 
-        {/* More AI Tools Button (Corner) */}
-        <div className="relative">
-          <a 
-            href="https://www.aiwebtools.ai"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="fixed bottom-6 right-6 z-40"
-          >
-            <Button 
-              variant="glow" 
-              className="rounded-full px-6 py-3 shadow-2xl animate-float"
-            >
-              More AI Tools
-            </Button>
-          </a>
-        </div>
-
         {/* Bottom Bar */}
-        <div className="border-t border-border pt-8">
+        <div className="border-t border-border pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <a 
               href="https://www.aiwebtools.ai"
