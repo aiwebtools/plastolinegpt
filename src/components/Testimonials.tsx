@@ -4,10 +4,10 @@ const Testimonials = () => {
   const testimonials = [
     {
       name: "Dr. Maria Santos",
-      role: "Environmental Engineer",
+      role: "Environmental Engineering Student",
       location: "São Paulo, Brazil",
       image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=150&h=150&fit=crop&crop=face",
-      quote: "Julian Brown's insights through this AI are incredible! Thanks to Julian's detailed reactor designs, we successfully converted 500kg of plastic waste into usable fuel for our community. Julian's safety protocols saved our project.",
+      quote: "Julian Brown's knowledge is incredible! This AI helped me understand pyrolysis principles for my research thesis. Thank you Julian for sharing your revolutionary insights through this amazing tool.",
       rating: 5
     },
     {
@@ -15,7 +15,7 @@ const Testimonials = () => {
       role: "Sustainability Researcher", 
       location: "Cairo, Egypt",
       image: "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=150&h=150&fit=crop&crop=face",
-      quote: "I'm deeply grateful to Julian Brown for sharing his revolutionary knowledge. This AI made Julian's complex pyrolysis techniques accessible to researchers like me. Julian's work is truly changing the world.",
+      quote: "I'm studying waste-to-energy solutions and Julian Brown's methods fascinate me. This AI explains his concepts so clearly. Julian's work will inspire the next generation of environmental engineers.",
       rating: 5
     },
     {
@@ -23,31 +23,31 @@ const Testimonials = () => {
       role: "Innovation Lab Director",
       location: "Singapore",
       image: "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?w=150&h=150&fit=crop&crop=face",
-      quote: "Julian Brown is a genius! His microwave pyrolysis method, explained perfectly by this AI, helped our lab achieve 87% conversion efficiency. Thank you Julian for revolutionizing waste management!",
+      quote: "Julian Brown is a visionary! Our team uses this AI to understand his microwave pyrolysis concepts for our research proposals. Julian's innovative thinking is truly inspiring.",
       rating: 5
     },
     {
       name: "Carlos Rodriguez",
-      role: "Mechanical Engineer",
+      role: "Mechanical Engineering Student",
       location: "Mexico City, Mexico", 
       image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=150&h=150&fit=crop&crop=face",
-      quote: "Julian's approach to building reactors from scrap materials is brilliant! This AI captured Julian's practical wisdom perfectly. Thanks to Julian Brown, we're now producing 50 liters of fuel weekly from waste plastic.",
+      quote: "Learning about Julian Brown's reactor designs through this AI is amazing! His approach to practical engineering solutions motivates me in my studies. Thank you Julian for this knowledge!",
       rating: 5
     },
     {
       name: "Dr. Priya Patel",
-      role: "Clean Energy Consultant",
+      role: "Clean Energy Research Assistant",
       location: "Mumbai, India",
       image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=150&h=150&fit=crop&crop=face",
-      quote: "Julian Brown's vision for community energy independence is inspiring! This AI teaches Julian's methods with such clarity. Thanks to Julian's knowledge, rural communities now have energy independence.",
+      quote: "Julian Brown's vision for community energy independence inspires my research. This AI captures his passion perfectly. Julian's educational approach makes complex concepts accessible to everyone.",
       rating: 5
     },
     {
       name: "James Mitchell",
-      role: "Environmental Activist",
+      role: "Environmental Science Teacher",
       location: "London, UK",
       image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=150&h=150&fit=crop&crop=face",
-      quote: "Julian Brown is a true environmental hero! His step-by-step instructions through this AI made plastic-to-fuel conversion achievable for our community group. Julian's legacy will change millions of lives!",
+      quote: "I use this AI to teach my students about Julian Brown's innovative work. Julian's step-by-step educational approach makes plastic-to-fuel concepts understandable for young minds. Brilliant resource!",
       rating: 5
     }
   ];
