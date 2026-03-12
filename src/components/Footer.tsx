@@ -86,7 +86,7 @@ const Footer = () => {
                 Disclaimer
               </a>
               <a 
-                href="https://www.aiwebtools.ai"
+                href="https://aiwebtools.lovable.app/?via=aiwebtools"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block text-muted-foreground hover:text-neon-cyan transition-colors"
