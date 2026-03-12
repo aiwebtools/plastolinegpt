@@ -16,7 +16,7 @@ const Footer = () => {
                 <h3 className="text-xl font-bold text-neon-cyan">Plastoline Julian AI</h3>
                 <p className="text-sm text-neon-pink">Inspired by Julian Brown</p>
                 <a 
-                  href="https://www.aiwebtools.ai" 
+                  href="https://aiwebtools.lovable.app/?via=aiwebtools" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-sm text-muted-foreground hover:text-neon-pink transition-colors"
