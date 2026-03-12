@@ -16,7 +16,7 @@ const Footer = () => {
                 <h3 className="text-xl font-bold text-neon-cyan">Plastoline Julian AI</h3>
                 <p className="text-sm text-neon-pink">Inspired by Julian Brown</p>
                 <a 
-                  href="https://www.aiwebtools.ai" 
+                  href="https://aiwebtools.lovable.app/?via=aiwebtools" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-sm text-muted-foreground hover:text-neon-pink transition-colors"
@@ -86,7 +86,7 @@ const Footer = () => {
                 Disclaimer
               </a>
               <a 
-                href="https://www.aiwebtools.ai"
+                href="https://aiwebtools.lovable.app/?via=aiwebtools"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block text-muted-foreground hover:text-neon-cyan transition-colors"
@@ -109,7 +109,7 @@ const Footer = () => {
                 Privacy Policy
               </a>
               <a 
-                href="https://aiwebtools.ai/terms-of-services"
+                href="https://aiwebtools.lovable.app/?via=aiwebtools"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block text-muted-foreground hover:text-neon-cyan transition-colors"
@@ -154,7 +154,7 @@ const Footer = () => {
               </Button>
             </a>
             <a 
-              href="https://www.aiwebtools.ai"
+              href="https://aiwebtools.lovable.app/?via=aiwebtools"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -182,7 +182,7 @@ const Footer = () => {
         <div className="border-t border-border pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <a 
-              href="https://www.aiwebtools.ai"
+              href="https://aiwebtools.lovable.app/?via=aiwebtools"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-neon-cyan transition-colors text-center md:text-left"

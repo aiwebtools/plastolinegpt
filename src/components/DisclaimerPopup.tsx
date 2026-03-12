@@ -71,7 +71,7 @@ const DisclaimerPopup = () => {
           </Button>
           <Button 
             variant="outline" 
-            onClick={() => window.location.href = 'https://www.aiwebtools.ai'}
+            onClick={() => window.location.href = 'https://aiwebtools.lovable.app/?via=aiwebtools'}
             className="flex-1"
           >
             EXIT - GO TO AI WEB TOOLS
