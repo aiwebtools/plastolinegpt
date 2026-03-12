@@ -109,7 +109,7 @@ const Footer = () => {
                 Privacy Policy
               </a>
               <a 
-                href="https://aiwebtools.ai/terms-of-services"
+                href="https://aiwebtools.lovable.app/?via=aiwebtools"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block text-muted-foreground hover:text-neon-cyan transition-colors"
