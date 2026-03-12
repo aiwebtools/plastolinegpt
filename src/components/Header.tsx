@@ -17,7 +17,7 @@ const Header = () => {
               <h1 className="text-sm sm:text-lg font-bold text-neon-cyan font-orbitron leading-tight">Plastoline Julian AI</h1>
               <p className="text-xs text-neon-pink font-exo leading-tight">Inspired by Julian Brown</p>
               <a 
-                href="https://www.aiwebtools.ai" 
+                href="https://aiwebtools.lovable.app/?via=aiwebtools" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-xs text-muted-foreground hover:text-neon-pink transition-colors font-exo"
